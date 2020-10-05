@@ -4,7 +4,6 @@ def square_array(array)
   while array[i] do 
   squarenum = (array[i] * array[i])
   new_array.push(squarenum)
-  binding.pry
  i += 1
   
 end
